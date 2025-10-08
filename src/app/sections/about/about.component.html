@@ -1,9 +1,9 @@
 <about-card *ngFor="let about of dataService.about" [content]="about" class="alarm-clock-animated"></about-card>
 <about-card *ngIf="dataService.showAboutWebsite" class="alarm-clock-animated" [content]="aboutWebsiteCardEn">
   <div style="margin-top: 3rem; display: flex; justify-content: space-between; align-items: flex-end">
-    <custom-button [link]="githubURL">
+    <custom-button [link]="https://github.com/el0qu4nce/el0qu4nce_cv.github.io">
       <span class="pi pi-github" style="font-size: 2rem"></span>
-      {{ langService.lang === "de" ? "Zum GitHub Projekt" : "To the GitHub Project"}}
+      {{ langService.lang === "de" ? "Zum GitHub Projekt" : "К проекту"}}
     </custom-button>
     <!-- TODO: replace app name with app icon -->
     <badge color="white">{{ appName }} {{ appVersion }}</badge>
