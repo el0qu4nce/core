@@ -31,7 +31,7 @@ export class AboutComponent {
 
   aboutWebsiteCardEn: AboutCard = {
     title: "About this Website",
-    heading: appName,
+    heading: "Eloqu4nce CV",
     text: [
       " - Я сделал этот сайтик, чтобы попробовать свои силы в этой сфере, а заодно и сотворить источник, рассказывающий обо мне"
     ]
